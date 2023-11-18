@@ -1,0 +1,353 @@
+{
+  "computers": [
+    {
+      "id": 1,
+      "model": "Macbook Pro",
+      "year": 2015
+    },
+    {
+      "id": 2,
+      "model": "Dell XPS",
+      "year": 2020
+    },
+    {
+      "id": 3,
+      "model": "HP Spectre",
+      "year": 2019
+    },
+    {
+      "id": 4,
+      "model": "Lenovo ThinkPad",
+      "year": 2021
+    },
+    {
+      "id": 5,
+      "model": "Asus ZenBook",
+      "year": 2020
+    },
+    {
+      "id": 6,
+      "model": "Microsoft Surface",
+      "year": 2018
+    },
+    {
+      "id": 7,
+      "model": "Acer Swift",
+      "year": 2019
+    },
+    {
+      "id": 8,
+      "model": "Samsung Galaxy Book",
+      "year": 2022
+    },
+    {
+      "id": 9,
+      "model": "LG Gram",
+      "year": 2021
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "ABC Industries"
+    },
+    {
+      "id": 2,
+      "name": "XYZ Corporation"
+    },
+    {
+      "id": 3,
+      "name": "Tech Innovators Ltd."
+    },
+    {
+      "id": 4,
+      "name": "Global Enterprises Inc."
+    },
+    {
+      "id": 5,
+      "name": "Infinite Solutions Co."
+    },
+    {
+      "id": 6,
+      "name": "United Ventures Group"
+    },
+    {
+      "id": 7,
+      "name": "Optimal Solutions LLC"
+    },
+    {
+      "id": 8,
+      "name": "Eagle Industries"
+    },
+    {
+      "id": 9,
+      "name": "Pinnacle Corporation"
+    },
+    {
+      "id": 10,
+      "name": "Strategic Innovations Inc."
+    },
+    {
+      "id": 11,
+      "name": "Dynamic Systems Ltd."
+    },
+    {
+      "id": 12,
+      "name": "Innovative Technologies Co."
+    },
+    {
+      "id": 13,
+      "name": "Empire Holdings Ltd."
+    },
+    {
+      "id": 14,
+      "name": "Advanced Solutions Inc."
+    },
+    {
+      "id": 15,
+      "name": "Global Vision Group"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Rainu",
+      "lastName": "Ittycheriah",
+      "computerId": 1,
+      "departmentId": 2,
+      "locationId": 3,
+      "age": 28
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe",
+      "computerId": 2,
+      "departmentId": 2,
+      "locationId": 1,
+      "age": 35
+    },
+    {
+      "id": 3,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "computerId": 3,
+      "departmentId": 3,
+      "locationId": 2,
+      "age": 42
+    },
+    {
+      "id": 4,
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "computerId": 4,
+      "departmentId": 3,
+      "locationId": 2,
+      "age": 23
+    },
+    {
+      "id": 5,
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "computerId": 5,
+      "departmentId": 1,
+      "locationId": 2,
+      "age": 30
+    },
+    {
+      "id": 6,
+      "firstName": "David",
+      "lastName": "Brown",
+      "computerId": 6,
+      "departmentId": 2,
+      "locationId": 3,
+      "age": 36
+    },
+    {
+      "id": 7,
+      "firstName": "Sophia",
+      "lastName": "Lee",
+      "computerId": 7,
+      "departmentId": 4,
+      "locationId": 1,
+      "age": 29
+    },
+    {
+      "id": 8,
+      "firstName": "Olivia",
+      "lastName": "Taylor",
+      "computerId": 8,
+      "departmentId": 2,
+      "locationId": 3,
+      "age": 31
+    },
+    {
+      "id": 9,
+      "firstName": "Daniel",
+      "lastName": "Anderson",
+      "computerId": 9,
+      "departmentId": 3,
+      "locationId": 1,
+      "age": 27
+    }
+  ],
+  "relationships": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "employeeId": 2
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "employeeId": 3
+    },
+    {
+      "id": 4,
+      "customerId": 4,
+      "employeeId": 4
+    },
+    {
+      "id": 5,
+      "customerId": 5,
+      "employeeId": 5
+    },
+    {
+      "id": 6,
+      "customerId": 6,
+      "employeeId": 6
+    },
+    {
+      "id": 7,
+      "customerId": 7,
+      "employeeId": 7
+    },
+    {
+      "id": 8,
+      "customerId": 8,
+      "employeeId": 8
+    },
+    {
+      "id": 9,
+      "customerId": 9,
+      "employeeId": 9
+    },
+    {
+      "id": 10,
+      "customerId": 10,
+      "employeeId": 1
+    },
+    {
+      "id": 11,
+      "customerId": 11,
+      "employeeId": 2
+    },
+    {
+      "id": 12,
+      "customerId": 12,
+      "employeeId": 3
+    },
+    {
+      "id": 13,
+      "customerId": 13,
+      "employeeId": 4
+    },
+    {
+      "id": 14,
+      "customerId": 14,
+      "employeeId": 5
+    },
+    {
+      "id": 15,
+      "customerId": 15,
+      "employeeId": 6
+    },
+    {
+      "id": 16,
+      "customerId": 1,
+      "employeeId": 7
+    },
+    {
+      "id": 17,
+      "customerId": 2,
+      "employeeId": 8
+    },
+    {
+      "id": 18,
+      "customerId": 3,
+      "employeeId": 9
+    },
+    {
+      "id": 19,
+      "customerId": 4,
+      "employeeId": 1
+    },
+    {
+      "id": 20,
+      "customerId": 5,
+      "employeeId": 2
+    },
+    {
+      "id": 21,
+      "customerId": 6,
+      "employeeId": 3
+    },
+    {
+      "id": 22,
+      "customerId": 7,
+      "employeeId": 4
+    },
+    {
+      "id": 23,
+      "customerId": 8,
+      "employeeId": 5
+    },
+    {
+      "id": 24,
+      "customerId": 9,
+      "employeeId": 6
+    },
+    {
+      "id": 25,
+      "customerId": 10,
+      "employeeId": 7
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Human Resources"
+    },
+    {
+      "id": 2,
+      "name": "Information Technology"
+    },
+    {
+      "id": 3,
+      "name": "Sales"
+    },
+    {
+      "id": 4,
+      "name": "Marketing"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville"
+    },
+    {
+      "id": 2,
+      "name": "Atlanta"
+    },
+    {
+      "id": 3,
+      "name": "Memphis"
+    }
+  ]
+}
